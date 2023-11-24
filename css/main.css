@@ -95,7 +95,7 @@ html {
 
 body {
   display: block;
-  width: 50%;
+  width: 40%;
   height: 100%;
 }
 
@@ -109,7 +109,9 @@ section {
   top: 0;
   right: 0;
   z-index: -2;
-  background: url(../img/cable-spaghetti-bg.jpg) no-repeat;
+  background-image: url(../img/cable-spaghetti-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   max-width: 1138px;
   max-height: 767px;
   width: 100%;
